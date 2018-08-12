@@ -13,17 +13,9 @@ namespace TrelloTodoList.Controllers
       return View();
     }
 
-    public ActionResult About()
+    public ActionResult Board(string id)
     {
-      ViewBag.Message = "Your application description page.";
-
-      return View();
-    }
-
-    public ActionResult Contact()
-    {
-      ViewBag.Message = "Your contact page.";
-
+      ViewBag.BoardId = id;
       return View();
     }
   }

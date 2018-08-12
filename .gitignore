@@ -259,3 +259,4 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/TrelloTodoList/Properties/PublishProfiles/TrelloTodoList - Web Deploy.pubxml
